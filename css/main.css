@@ -118,12 +118,39 @@ textarea {
      width:100%;
      height: 500%;
      background-size: 50% 50%;
-     background-color:#000000;
+     background-color:#ffffff;
    }
 
    .test{
      position:static;
    }
+
+   #project01{
+     text-align: center;
+     padding:50px;
+     font-size: 50px;
+   }
+
+   #rocket{
+     position: absolute;
+     top:5%;
+     background-image: url("img/satellite.png");
+     left:66%;
+   }
+
+   #image{
+     position:absolute;
+     transform: translateZ(5px);
+
+   }
+/*
+   .project{
+     opacity: 1;
+     transition: all 0.8s ease-out;
+   }
+   .project.fade-in{
+     opacity: 1;
+   }*/
 
 
 
