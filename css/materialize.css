@@ -4750,9 +4750,12 @@ small {
   font-size:24px;
   font-weight:400;
 }
+.card .card-subtitle-small{
+    font-size:18pt;
+    font-weight:200;
+}
 
-
-@Media screen and (max-width:700px){
+@Media screen and (max-width:650px){
   .card .card-title{
     font-size:24px;
     font-weight: 300;
@@ -4761,6 +4764,20 @@ small {
   .card .card-subtitle{
     font-size:16px;
     font-weight: 200;
+  }
+
+  .card .card-content p {
+    margin: 0;
+    text-align: justify;
+    font-size: 14pt;
+    font-weight: 200;
+    color: inherit;
+    font-family: inherit;
+  }
+
+  .card .card-subtitle-small{
+    font-size:14pt;
+    font-weight:100;
   }
 }
 
@@ -4896,7 +4913,12 @@ small {
 
 .card .card-content p {
   margin: 0;
+  text-align: justify;
+  font-size: 12pt;
+  line-height: 30px;
+  font-weight: 200;
   color: inherit;
+  font-family: inherit;
 }
 
 .card .card-content .card-title {
@@ -4908,7 +4930,7 @@ small {
 .card .card-content .card-subtitle{
   display:block;
   line-height:32px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   margin-top:15px;
 }
 
@@ -4920,7 +4942,7 @@ small {
   position: relative;
   background-color: inherit;
   border-top: 1px solid rgba(160, 160, 160, 0.2);
-  padding: 16px 24px;
+  padding: 15px 15px 15px 15px;
 }
 
 .card .card-action:last-child {
@@ -5043,6 +5065,8 @@ small {
   width: 100%;
   background-color: #fff;
   margin: 0 auto;
+  margin-top:-30px;
+
   white-space: nowrap;
 }
 
