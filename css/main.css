@@ -184,6 +184,7 @@ textarea {
    -webkit-animation: slide 0.8s forwards;
    -webkit-animation-delay: 0s;
    animation: slide 0.87s forwards;
+   animation-delay:0.75s;
   }
 
   @-webkit-keyframes slide {
@@ -205,7 +206,7 @@ textarea {
   -webkit-transform:rotate(0deg);
   transform:rotate(0deg);
   animation: slide3 1s forwards;
-  animation-delay:0.8s;
+  animation-delay:1.55s;
   }
 
   @-webkit-keyframes slide3 {
@@ -224,7 +225,7 @@ textarea {
   -webkit-animation: slidel 0.8s forwards;
   -webkit-animation-delay: 0s;
   animation: slidel 1s forwards;
-  animation-delay:0.25s;
+  animation-delay:1s;
  }
 
  @-webkit-keyframes slidel {
@@ -241,7 +242,7 @@ textarea {
    opacity: 0;
    -webkit-animation: fadein 2s;
    animation: fadein 1s;
-   animation-delay: 0.30s;
+   animation-delay: 1.05s;
    animation-fill-mode:forwards; /*when the spec is finished*/
 
  }
@@ -249,14 +250,14 @@ textarea {
    opacity: 0;
    -webkit-animation: fadein 2s;
    animation: fadein 1s;
-   animation-delay: 0.5s;
+   animation-delay: 1.25s;
    animation-fill-mode:forwards; /*when the spec is finished*/
  }
  #fade-in3{
    opacity: 0;
    -webkit-animation: fadein 2s;
    animation: fadein 1s;
-   animation-delay: 1s;
+   animation-delay: 1.75s;
    animation-fill-mode:forwards; /*when the spec is finished*/
  }
 
