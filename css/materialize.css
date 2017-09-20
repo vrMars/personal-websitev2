@@ -4738,7 +4738,7 @@ small {
   transition: -webkit-box-shadow .25s;
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 .card .card-title {
@@ -4755,28 +4755,28 @@ small {
     font-weight:200;
 }
 
-@Media screen and (max-width:650px){
+@Media screen and (max-width:750px){
   .card .card-title{
-    font-size:24px;
-    font-weight: 300;
+    font-size:32px;
+    font-weight: 200;
   }
 
-  .card .card-subtitle{
-    font-size:16px;
+  .card .card-subtitle-small{
+    font-size:250px;
     font-weight: 200;
   }
 
   .card .card-content p {
     margin: 0;
     text-align: justify;
-    font-size: 14pt;
+    font-size: 20pt;
     font-weight: 200;
     color: inherit;
     font-family: inherit;
   }
 
   .card .card-subtitle-small{
-    font-size:14pt;
+    font-size:16pt;
     font-weight:100;
   }
 }
@@ -4923,8 +4923,8 @@ small {
 
 .card .card-content .card-title {
   display: block;
-  line-height: 64px;
-  margin-bottom: 0px;
+  line-height: 60px;
+  margin-bottom: 10px;
 }
 
 .card .card-content .card-subtitle{
@@ -4935,7 +4935,7 @@ small {
 }
 
 .card .card-content .card-title i {
-  line-height: 32px;
+  line-height: 36px;
 }
 
 .card .card-action {
@@ -4951,7 +4951,8 @@ small {
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
   color: #ffab40;
-  margin-right: 24px;
+  margin-right: 15px;
+  margin-left:15px;
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
   text-transform: uppercase;

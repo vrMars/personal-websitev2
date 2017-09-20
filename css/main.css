@@ -109,8 +109,8 @@ textarea {
     }*/
 
    #particles-js{
-     height:180%;
-     background-color: #4d4d4d;
+     height: 140%;
+     background-color: #4d4c4c;
    }
 
 
@@ -127,17 +127,149 @@ textarea {
      text-align: center;
    }
 
-   .rocket{
+   .top-bar{
+     text-align: center;
+     padding:0px 0px 15px;
+   }
+
+   .project-image{
+     float:left;
+     padding-right:20px;
+   }
+
+   #bar-split{
+     font-size:15pt;
+     font-family: "San Francisco";
+     font-weight:100;
+     padding-left: 30px;
+     padding-right:30px;
+   }
+
+   .satellite{
      position: absolute;
-     top:-30%;
+     top:-25%;
      background-image: url("img/satellite.png");
      left:80%;
      overflow:hidden;
    }
+   .moon{
+     position: absolute;
+     top:-2%;
+     background-image: url("img/satellite.png");
+     left:40%;
+     overflow:hidden;
+   }
 
-   @media only screen and (max-width: 650px){
+   .rocket{
+     position: absolute;
+     top:-4%;
+     background-image: url("img/satellite.png");
+     left:88%;
+     margin-left:10%;
+     overflow:hidden;
+   }
+
+   #slide-right{
+   position: absolute;
+   transform:rotate(200);
+   left: 200%;
+   opacity: 0;
+   -webkit-animation: slide 0.8s forwards;
+   -webkit-animation-delay: 0s;
+   animation: slide 0.87s forwards;
+  }
+
+  @-webkit-keyframes slide {
+     from {opacity: 0;}
+     100% { left: 100%; opacity: 100; transform:rotate(0);}
+  }
+
+  @keyframes slide {
+    from {opacity: 20%;}
+     to { left: 76%; opacity: 100; transform:rotate(0);}
+  }
+
+  #slide-right2{
+  position: absolute;
+  left: 200%;
+  opacity: 0;
+  -webkit-animation: slide3 0.8s forwards;
+  -webkit-animation-delay: 0s;
+  -webkit-transform:rotate(0deg);
+  transform:rotate(0deg);
+  animation: slide3 1s forwards;
+  animation-delay:0.8s;
+  }
+
+  @-webkit-keyframes slide3 {
+    0% {opacity: 0}
+    100% { left: 100%; opacity: 100;}
+  }
+
+  @keyframes slide3 {
+   75% {opacity: 20%;}
+    100% { left: 80%; opacity: 100;}
+  }
+  #slide-left{
+  position: absolute;
+  left: -200%;
+  opacity: 0;
+  -webkit-animation: slidel 0.8s forwards;
+  -webkit-animation-delay: 0s;
+  animation: slidel 1s forwards;
+  animation-delay:0.25s;
+ }
+
+ @-webkit-keyframes slidel {
+    0% {opacity: 0}
+    100% { left: 0%; opacity: 100;}
+ }
+
+ @keyframes slidel {
+   75% {opacity: 20%;}
+    100% { left: -10%; opacity: 100;}
+ }
+
+ #fade-in1{
+   opacity: 0;
+   -webkit-animation: fadein 2s;
+   animation: fadein 1s;
+   animation-delay: 0.30s;
+   animation-fill-mode:forwards; /*when the spec is finished*/
+
+ }
+ #fade-in2{
+   opacity: 0;
+   -webkit-animation: fadein 2s;
+   animation: fadein 1s;
+   animation-delay: 0.5s;
+   animation-fill-mode:forwards; /*when the spec is finished*/
+ }
+ #fade-in3{
+   opacity: 0;
+   -webkit-animation: fadein 2s;
+   animation: fadein 1s;
+   animation-delay: 1s;
+   animation-fill-mode:forwards; /*when the spec is finished*/
+ }
+
+ @keyframes fadein {
+   from {opacity: 0;}
+   to {
+     opacity: 1;
+   }
+ }
+ @-webkit-keyframes fadein {
+   from {opacity: 0;}
+   to {
+     opacity: 1;
+   }
+ }
+
+
+   @media only screen and (max-width: 750px){
      #particles-js{
-       height:225%;
+       height:140%;
        background-color: #4d4d4d;
      }
 
@@ -153,15 +285,31 @@ textarea {
        text-align: center;
      }
 
-     .rocket{
+     .satellite{
        position: absolute;
        top:-20%;
        background-image: url("img/satellite.png");
        left:77%;
      }
 
-     img{
-       height:100px;
+     .moon{
+       position: absolute;
+       top:-2%;
+       background-image: url("img/satellite.png");
+       left:40%;
+       overflow:hidden;
+     }
+     .rocket{
+       position: absolute;
+       top:-2%;
+       background-image: url("img/satellite.png");
+       left:60%;
+       margin-left: 0;
+       overflow:hidden;
+     }
+
+     .pins img{
+       height:80px;
      }
    }
 
@@ -170,8 +318,10 @@ textarea {
      width:100%;
      height: 100%;
      background-size: 50% 50%;
-     background-color:#ffffff;
+     background-color:#4d4d4d;
    }
+
+
 
    .test{
      position:static;

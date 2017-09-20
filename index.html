@@ -15,7 +15,6 @@
         <!--Import materialize.css-->
         <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <script type="text/javascript" src="js/jquery.interactive_bg.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script type="text/javascript" src="js/materialize.js"></script>
 
@@ -26,34 +25,39 @@
         <![endif]-->
         <!-- Add your site or application content here -->
         <!-- particles.js container -->
-
       <section class="name">
 
         <div class="text-bg">
           <div class="card white z-depth-2">
-            <div class="rocket"><img src="img/satellite.png" height="150px"/></div>
+            <div class="satellite" id=slide-right data-tilt data-tilt-max="30" data-tilt-speed"100" data-tilt-perspective="100"><img src="img/satellite.png" height="150px"/></div>
+            <div id="fade-in1">
             <div class="card-content black-text">
               <span class="card-subtitle-small">Hi! I'm,</span>
               <span class="card-title">Neelaksh Bhatia</span>
-              <hr/>
-              <span class="card-subtitle-small">I'm currently studying</span>
-              <span class="card-subtitle">Computer Science at the <span style="color:#DAA520">University of Waterloo</span></span>
             </div>
             <div class="card-action">
-              <a href="#">Resume</a>
-              <a href="#">Github</a>
-              <a href="#">LinkedIn</a>
-              <a href="#">Email</a>
+              <a target="_blank "href="resume.pdf">Resume</a>
+              <a target="_blank "href="https://github.com/vrMars">Github</a>
+              <a target="_blank "href="https://www.linkedin.com/in/neelakshb/">LinkedIn</a>
+              <a target="_blank "href="mailto: neelakshbhatia@gmail.com">Email</a>
             </div>
         </div>
+      </div>
         <div class="card white">
+          <div class="moon" id=slide-left data-tilt data-tilt-max="30" data-tilt-speed"100" data-tilt-perspective="200"><img src="img/moon.png" height="100px"/></div>
+          <div id="fade-in2">
           <div class="card-content black-text">
+
             <span class="card-title">About me</span>
             <hr/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>I'm a second year <span style="font-weight:400;">Computer Science</span> student at the <span style="color:#ffab40; font-weight:400;">University of Waterloo</span>. I love working through tough challenges and pushing myself beyond my own expectations.</p>
           </div>
         </div>
+      </div>
         <div class="card white">
+          <div class="rocket" id=slide-right2 data-tilt data-tilt-max="50" data-tilt-speed"100" data-tilt-perspective="200"><img class="pins" src="img/rocket.png" height="100px"/></div>
+
+          <div id=fade-in3>
           <div class="card-content">
             <span class="card-title">Projects</span>
             <hr/>
@@ -66,11 +70,59 @@
             </ul>
           </div>
           <div class="card-content">
-            <div id="test4"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
-            <div id="test5"><p>Lorem Ipsum  of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
-            <div id="test6"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing  versions of Lorem Ipsum.</p></div>
+            <div id="test4">
+              <div class="top-bar">
+              <img src="img/roome_logo.png" height="45px"></img>
+              <span id="bar-split">-</span>
+              <a target="_blank" href="https://github.com/vrMars/Roome-Android"><img src="img/github.png" height=35px;></img></a>
+              <span id="bar-split">-</span>
+              <img src="img/android.png" height=35px;></img>
+            </div>
+              <p>Roome is a comprehensive roomate management app. It provides the ability to communicate with all of your roomates effortlessly, lets you manage your shared finances securely, and
+              smartly notifies you about your chores.</p>
+              <hr/>
+              <div class="project-image">
+                <img class="materialboxed" src="img/roome-1.png" width=100px></img>
+              </div>
+              <img  class="materialboxed" src="img/roome-2.png" width=100px></img>
+
+            </div>
+            <div id="test5">
+              <div class="top-bar">
+              <img src="img/nothingbutnetlogo.png" height="45px"></img>
+              <span id="bar-split">-</span>
+              <a target="_blank" href="https://github.com/chaitanyavp/nothing-but-net"><img src="img/github.png" height=35px;></img></a>
+              <span id="bar-split">-</span>
+              <img src="img/android.png" height=25px;></img>
+              <img src="img/apple.png" height=25px;></img>
+
+            </div>
+              <p>Nothing_but_net is an arcade style basketball mobile-game. The objective of the game is to draw physics enabled paths such that
+                 the basketball is able to bounce into the net, whilst avoiding obstacles. Written by a team of two programmers, this game uses a custom physics engine to interpret user
+                 drawn objects and collisions.</p>
+              <hr/>
+              <div class="project-image">
+                <img class="materialboxed" src="img/nothing_but_net1.png" width=80px height=160px></img>
+              </div>
+              <div class="project-image">
+                <img  class="materialboxed" src="img/nothing_but_net2.png" height=160px></img>
+              </div>
+              <img  class="materialboxed" src="img/nothing_but_net3.png" width=80px height=160px></img>
+
+            </div>
+            <div id="test6">    <div class="top-bar">
+                <img src="img/findr_logo.png" height="45px"></img>
+                <span id="bar-split">-</span>
+                <a target="_blank" href="https://github.com/vrMars/Findr"><img src="img/github.png" height=35px;></img></a>
+                <span id="bar-split">-</span>
+                <img src="img/android.png" height=35px;></img>
+              </div>
+                <p>Findr is a project showcasing the power of machine learning for image recognition.
+                  It uses the <a target="_blank" href="https://clarifai.com/demo">Clarifai API</a> to perform object and conceptual recognition and is user trainable.</p>
+              </div>
           </div>
         </div>
+      </div>
 
         </div>
 
@@ -86,6 +138,21 @@
 
 
         <!-- scripts -->
+
+
+        <script>
+          $(document).ready(function() {
+          var options = [{
+            selector: '#tabs',
+            offset: 300,
+            callback: function(el) {
+              Materialize.showStaggeredList($(el));
+            }
+          }];
+
+          Materialize.scrollFire(options);
+          });
+        </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.0/TweenMax.min.js"></script>
@@ -94,13 +161,10 @@
         <script src="js/app.js"></script>
         <script src="js/particles.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-        <script src="js/scrollmagic/uncompressed/ScrollMagic.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
-        <script src="js/tilt.jquery.js"></script>
-        <script src="js/jquery.path.js"></script>
-        <script src="js/pathAnimator.js"></script>
+        <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
