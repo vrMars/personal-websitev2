@@ -110,7 +110,7 @@ textarea {
 
     html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
    #particles-js{
@@ -122,6 +122,8 @@ textarea {
      z-index: 1;
      overflow: scroll;
      background-color: #4d4c4c;
+     overflow-x: hidden !important;
+
    }
 
 
