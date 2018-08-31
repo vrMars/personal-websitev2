@@ -9,10 +9,14 @@ h4,
 h5,
 h6 {
   font-family: ".SF NS Display";
-  font-weight: 800 !important;
+  font-weight: 700 !important;
 }
-
+.heading{
+  font-weight: 700 !important;
+  font-family: ".SF NS Display" ;
+}
 .school {
+  font-weight: 600 !important;
   color: #ffef00;
 }
 
@@ -76,7 +80,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff8e3a 0%, #ee0979 70%) no-repeat scroll center center;
+  background: linear-gradient(0deg, #ff8e3a 0%, #ee0979 69%) no-repeat scroll center center;
   background-size: cover;
 }
 
@@ -146,13 +150,13 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+  background-color: #870085;
+  border-color: #870085;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #bd0760 !important;
-  border-color: #bd0760 !important;
+  background-color: #6e006c !important;
+  border-color: #6e006c !important;
 }
 
 .btn-primary:focus {

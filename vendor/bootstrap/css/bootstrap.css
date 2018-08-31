@@ -2554,8 +2554,8 @@ fieldset:disabled a.btn {
 
 .btn-danger:hover {
   color: #fff;
-  background-color: #c82333;
-  border-color: #bd2130;
+  background-color: #a71e2c;
+  border-color: #a71e2c;
 }
 
 .btn-danger:focus, .btn-danger.focus {
