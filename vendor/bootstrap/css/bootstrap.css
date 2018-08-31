@@ -424,7 +424,13 @@ h6, .h6 {
   font-size: 1.2rem;
   font-weight: 400;
   font-family: ".SF NS Display";
-  line-height: 1.5;
+  line-height: 1.8;
+}
+
+.display-6 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 hr {
@@ -560,6 +566,8 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+
 
 @media (min-width: 576px) {
   .container {
