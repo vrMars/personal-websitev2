@@ -420,6 +420,13 @@ h6, .h6 {
   line-height: 1.2;
 }
 
+.display-5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: ".SF NS Display";
+  line-height: 1.5;
+}
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;

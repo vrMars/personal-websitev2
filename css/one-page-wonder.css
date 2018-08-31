@@ -21,6 +21,24 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
+.btn-med {
+  text-transform: uppercase;
+  font-family: ".SF NS Display";
+  padding: 1.0rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.highlight {
+  color: orangered;
+  font-weight: 800;
+}
+
+.bold{
+  font-weight: 800;
+}
+
 .bg-black {
   background-color: #000 !important;
 }
