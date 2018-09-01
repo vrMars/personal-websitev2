@@ -1,6 +1,3 @@
-body {
-  font-family: 'Lato';
-}
 
 h1,
 h2,
@@ -8,12 +5,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: ".SF NS Display";
   font-weight: 700 !important;
 }
 .heading{
   font-weight: 700 !important;
-  font-family: ".SF NS Display" ;
 }
 .school {
   font-weight: 600 !important;
@@ -22,7 +17,6 @@ h6 {
 
 .btn-xl {
   text-transform: uppercase;
-  font-family: ".SF NS Display";
   padding: 1.1rem 3rem;
   font-size: 1.2rem;
   font-weight: 700;
@@ -31,7 +25,6 @@ h6 {
 
 .btn-med {
   text-transform: uppercase;
-  font-family: ".SF NS Display";
   padding: 1.0rem 2rem;
   font-size: 1rem;
   font-weight: 700;
