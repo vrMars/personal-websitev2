@@ -17,10 +17,10 @@ h6 {
 
 .btn-xl {
   text-transform: uppercase;
-  padding: 1.1rem 3rem;
+  padding: 1rem 2rem;
   font-size: 1.2rem;
   font-weight: 700;
-  letter-spacing: 0.13rem;
+  letter-spacing: 0.15rem;
 }
 
 .btn-med {
@@ -45,7 +45,7 @@ h6 {
 }
 
 .rounded-pill {
-  border-radius: 5rem;
+  border-radius: 2rem;
 }
 
 .navbar-custom {
@@ -73,8 +73,9 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff8e3a 0%, #ee0979 69%) no-repeat scroll center center;
-  background-size: cover;
+  background: linear-gradient(225deg, #ff8e3a 0%, #ee0979 80%) no-repeat scroll center center;
+  background-size: auto;
+  min-height: 100vh;
 }
 
 header.masthead .masthead-content {
