@@ -73,7 +73,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(225deg, #ff8e3a 0%, #ee0979 80%) no-repeat scroll center center;
+  background: linear-gradient(225deg, black 0%, #ee0979 80%) no-repeat scroll center center;
   background-size: auto;
   min-height: 100vh;
 }
@@ -84,6 +84,7 @@ header.masthead .masthead-content {
 }
 
 header.masthead .masthead-content .masthead-heading {
+  color: white;
   font-size: 3rem;
 }
 
